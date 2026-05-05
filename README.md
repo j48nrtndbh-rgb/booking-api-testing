@@ -20,16 +20,37 @@ Below is the execution result from my Jenkins CI/CD Pipeline:
 * ## 📸 Execution Screenshots
 Here are more details about the test execution:
 
-### Postman Runner Results
-![Runner](Screenshots/Runner.png)
+## 📸 Project Execution Proofs (Screenshots)
 
-### Created Token Proof
-![Token](Screenshots/create-token.png)
+Below are the visual results of the test execution across different environments and scenarios:
 
-### Create Booking Result
-![Create Booking](Screenshots/Create-booking.png)
+### 1️⃣ Jenkins CI/CD Pipeline
+This screenshot shows the successful execution of the automated collection within the Jenkins pipeline.
+![Jenkins Pipeline](Screenshots/jenkins-pipeline.success)
 
-### Automated Workflow (Smart Skipping)
-![Workflow](Screenshots/html-report.png)
+### 2️⃣ Postman Collection Runner
+Proof of running the full "Happy Path" collection locally with all tests passing.
+![Postman Runner](Screenshots/Runner)
+
+### 3️⃣ Automated Workflow Results
+The HTML report showing the smart execution and workflows.
+![HTML Report](Screenshots/html-report)
+
+### 4️⃣ API Scenarios Testing
+Here are the results for specific API requests:
+
+| Scenario | Screenshot Reference |
+| :--- | :--- |
+| **Token Generation** | ![Token](Screenshots/create-token) |
+| **Create Booking** | ![Create](Screenshots/Create-booking) |
+| **Get All Bookings** | ![Get All](Screenshots/get-all-booking) |
+| **Update / Patch** | ![Update](Screenshots/udate-patch) |
+
+### 5️⃣ Negative Testing (Security & Validation)
+Verification of the API behavior with invalid data or missing credentials.
+* **Missing Header:** ![Missing](Screenshots/missing-header)
+* **Invalid Token:** ![Invalid](Screenshots/invalid-token)
+
+
 
 
