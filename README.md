@@ -5,7 +5,7 @@ This project demonstrates professional API testing using Postman, Newman, and Je
 ## 📊 Test Execution Summary
 Below is the execution result from my Jenkins CI/CD Pipeline:
 
-![Jenkins Pipeline](Screenshots/jenkins-pipeline.....ess.png)
+![Jenkins Pipeline](jenkins-pipeline.success.png)
 
 ## 📁 Project Contents
 * **Collection**: Postman scripts including smart Workflows (`setNextRequest`).
@@ -24,32 +24,28 @@ Here are more details about the test execution:
 
 Below are the visual results of the test execution across different environments and scenarios:
 
-### 1️⃣ Jenkins CI/CD Pipeline
-This screenshot shows the successful execution of the automated collection within the Jenkins pipeline.
-![Jenkins Pipeline](Screenshots/jenkins-pipeline.success)
-
 ### 2️⃣ Postman Collection Runner
 Proof of running the full "Happy Path" collection locally with all tests passing.
-![Postman Runner](Screenshots/Runner)
+![Postman Runner](Runner.png)
 
 ### 3️⃣ Automated Workflow Results
 The HTML report showing the smart execution and workflows.
-![HTML Report](Screenshots/html-report)
+![HTML Report](html-report.png)
 
 ### 4️⃣ API Scenarios Testing
 Here are the results for specific API requests:
 
 | Scenario | Screenshot Reference |
 | :--- | :--- |
-| **Token Generation** | ![Token](Screenshots/create-token) |
-| **Create Booking** | ![Create](Screenshots/Create-booking) |
-| **Get All Bookings** | ![Get All](Screenshots/get-all-booking) |
-| **Update / Patch** | ![Update](Screenshots/udate-patch) |
+| **Token Generation** | ![Token](create-token.png) |
+| **Create Booking** | ![Create](Create-booking.png) |
+| **Get All Bookings** | ![Get All](get-all-booking.png) |
+| **Update / Patch** | ![Update](update.png) |
 
 ### 5️⃣ Negative Testing (Security & Validation)
 Verification of the API behavior with invalid data or missing credentials.
-* **Missing Header:** ![Missing](Screenshots/missing-header)
-* **Invalid Token:** ![Invalid](Screenshots/invalid-token)
+* **Missing Header:** ![Missing](missing-header.png)
+* **Invalid Token:** ![Invalid](invalid-token.png)
 
 
 
